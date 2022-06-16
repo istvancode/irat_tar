@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html{
+	height: 100%;
+}
+.acckep{
+	text-align: center;
+	margin: 0 auto;
+	width: 98%;
+	height: 14vw;
+	animation-name: akep;
+	animation-duration: 2s;
+}
+@keyframes akep{
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+.doboz{
+	background: rgba(255,255,255,.8);
+	width: 90vw;
+	text-align: center;
+	justify-content: center;
+	padding: 10px;
+	margin: 0 auto;
+}
+.doboz label{
+	font-size:2vh; 
+	width: 115px; 
+	text-align: left;
+}
+.inputcsoport{
+	width: 20px; 
+	height: 20px; 
+	float:left; 
+	margin-right: 5px;
+	font-size: 1vh;
+}
+.inputtext{
+	font-size: 1.5vh;
+	font-weight: bold;
+}
+.row{
+	text-align: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.jogosultalert0{
+	margin: 5px;
+	color: white;
+	background: darkblue;
+	font-size: 1.5rem;
+	box-shadow: 5px 5px 5px black;
+	text-align: center;
+}
+.jogosultalert1{
+	margin: 5px;
+	color: white;
+	background: red;
+	font-size: 1.5rem;
+	box-shadow: 5px 5px 5px black;
+	text-align: center;
+}
+.jogosultalert2{
+	margin: 5px;
+	color: white;
+	background: green;
+	font-size: 1.5rem;
+	box-shadow: 5px 5px 5px black;
+	text-align: center;
+}
+
+.csik{
+	background: gray;
+	height: 2px;
+}
+.error{
+	color: red;
+}
+.megjegyzes{
+	font-size: 50px;
+}
+.kepmappa1{
+	justify-content: center;
+	text-align: center;
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.kepmappa1:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa2{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.kepmappa2:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa3{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.kepmappa3:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa4{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.kepmappa4:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa5{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.kepmappa5:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa6{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+	
+}
+.kepmappa6:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa7{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+	
+}
+.kepmappa7:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa8{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.kepmappa8:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa9{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.kepmappa9:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa10{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.kepmappa10:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+.kepmappa11{
+	box-shadow: 5px 5px 2px gray;
+	width: 150px;
+	margin-bottom: 20px;
+}
+.kepmappa11:hover{
+	margin-left: 6px;
+	box-shadow: 5px 5px 2px black;
+}
+
+.content{
+	max-width: 440px;
+}
+
+.title{
+	font-family:'Lobster', cursive;
+	color: gray;
+	height: 35px;
+	font-size: 20px;
+	padding-left: 5px;
+	top: 15px;
+	position: absolute;
+	width: 100%;
+	animation-name: subc;
+	animation-duration: 3s;
+}
+
+@keyframes subc{
+	0% {top: -90px}
+	100% {top: 15px}
+}
+
+.datum{
+	text-align: center;
+	color: rgb(232,139,0);
+	font-size: 15px;
+}
+.upload{
+	padding-top: 15px;
+}
+
+.ment{
+	margin: 5px;
+	color: green;
+	font-size: 2rem;
+	box-shadow: 5px 5px 5px black;
+	text-align: center;
+}
+@media(max-width: 500px){
+.ment{	
+	font-size: 1rem;
+	}
+}
+.subtitle{
+	color: rgb(46,54,59);
+	font-family: georgia;
+	padding-left: 30px;
+	text-align: center;
+	border: solid 2px gray;
+	margin-bottom: 5px;
+}
+.subcontent{
+	padding: 4px;
+	position: relative;
+	overflow: hidden;
+	border: solid 2px gray;
+}
+
+.content p{
+	color: rgb(71,67,117);
+	font-size: 14px;
+	font-family: georgia;
+	margin: 8px;
+}
+.content a{
+	padding-top: 20px;
+}
+
+.project p{
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    text-align: center;
+	font-size: 40px;
+	font-family:'Lobster', cursive;
+	box-shadow: 7px 7px 5px black;
+}
+.szoveg{
+	font-family: georgia;
+	padding: 5px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	text-align: center;
+}
+.btns{
+	background-image: linear-gradient(to left, gray,gray, white, gray,gray);
+	font-size: 25px;
+	color: black;
+	font-family: georgia;
+	text-align: center;
+	padding: 1px 5px 1px 5px;
+	box-shadow: 3px 3px 3px black;
+	border-radius: 5px;
+}
+.btns:hover{
+	background-image: linear-gradient(to left, gray,gray,gray, white,gray);
+	box-shadow: none;
+	border-radius: 5px;
+}
+.btnsexit{
+	background-image: linear-gradient(to left, red,red, white, red,red);
+	font-size: 25px;
+	color: black;
+	font-family: georgia;
+	text-align: center;
+	padding: 1px 16px 1px 16px;
+	box-shadow: 3px 3px 3px black;
+	border-radius: 5px;
+	margin: 10px 0px 10px 0px;
+}
+.btnsexit:hover{
+	background-image: linear-gradient(to left, red,red,red, white ,red);
+	box-shadow: none;
+	border-radius: 5px;
+}
+.soremel{
+	height: 20px;
+}
+.modositas{
+	display: block;
+	padding-left: 5px;
+}
+
+.footer p{
+	text-align: center;
+	margin: 1px auto;
+	font-size: 15px;
+}
